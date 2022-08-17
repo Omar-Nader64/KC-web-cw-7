@@ -9,15 +9,21 @@
     <title>مؤشر وزن الجسم</title>
     <script defer src="./script.js"></script>
   </head>
+
+
   <body>
+
     <div class="container">
-      <h2>!اضغط علي</h2>
+      <h2 onmouseover="alert(Status(BMI(83, 1.83)))">!اضغط علي</h2>
       <section>
         <input id="weight" type="number" placeholder="الوزن بالكيلوجرام" />
         <input id="height" type="number" placeholder="الطول بالمتر" />
+        <button onclick="calculate()">احسب</button>
         <div id="result"></div>
-        <button>احسب</button>
       </section>
     </div>
+
   </body>
+
+
 </html>
