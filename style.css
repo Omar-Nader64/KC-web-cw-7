@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
 body {
   display: flex;
   justify-content: center;
@@ -7,7 +9,7 @@ body {
   background-color: #3d3d3d;
   font-family: monospace;
 }
-.container {
+#container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -28,7 +30,8 @@ section {
 }
 input,
 button {
-  padding: 3px;
+  padding: 5px;
+  margin: 5px;
   width: 70px;
   outline: none;
   text-align: center;
@@ -37,6 +40,7 @@ button {
 }
 input {
   border: 0.5px solid #f0f0f0;
+  
 }
 input:focus,
 button:hover {
@@ -48,5 +52,16 @@ button {
   color: black;
   border: 1px solid #f3f3f3;
   background-color: #f0f0f0;
+  
+}
+#weight{
+  width: 100px;
 }
 
+#height{
+  width: 100px;
+}
+
+#result{
+  font-family: 'Lalezar', cursive;
+}
